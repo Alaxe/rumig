@@ -1,0 +1,78 @@
+body {
+    font-family: 'Roboto', sans-serif; 
+    padding: 0px;
+    margin: 0px;
+    background-color: #fff;
+    color: #070707;
+    font-size: 16px;
+    width: 100%;
+}
+
+.content {
+    max-width: 500px;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #777;
+}
+a:hover, a:active {
+    color: #aaa;
+}
+
+h1, .nav {
+    font-size: 28pt;
+    text-align: center;
+    color: #070707;
+}
+
+.nav:hover, .nav:actie {
+    color: #777;
+}
+
+h2 {
+    font-size: 20pt;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+hr {
+    border-color: #FFFFFF;
+    border-top-width: 0.25;
+}
+
+p {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+pre {
+    padding-left: 10px;
+    padding-right: 10px;
+
+    color: #070707;
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif; 
+}
+
+.video-container {
+    position: relative;
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+}
+.video-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0px;
+}
+
+@media screen and (max-device-width : 400px) {
+    pre {
+        font-size: 13px;
+    }
+}
