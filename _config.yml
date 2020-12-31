@@ -7,11 +7,20 @@
 
 # Site settings
 title: Rumi G
-email: your-email@domain.com
-description: > 
+description: >
   An unofficial website for the lyrics from the songs of Rumi G
-baseurl: "" 
-url: "http://rumi-g.cf" # the base hostname & protocol for your site
+baseurl: ""
+url: "https://rumig.cf"
 permalink: "/:title/"
 
-markdown: kramdown
+lsi: false
+safe: true
+source: .
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
