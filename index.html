@@ -1,23 +1,20 @@
 ---
 layout: default
 ---
-<h1>Rumi G </h1>
-<div class="content">
-    <h2>Песни</h2>
-    <ul>
-{% for song in site.posts %}
-	<li>
-	    <a href="{{ song.url }}">
-		{{ song.title }}
-	    </a>
-	</li>
-{% endfor %}
-    </ul>
-    <p>
-	Сайт, посветен на поезията на Руми Джи. Обичаме те!
-	<br>
-	<span style="float: right;">
-	    - Феновете
-	</span>
-    </p>
-</div>
+<h2>Песни</h2>
+<ul>
+  {% for song in site.posts %}
+  <li>
+    <a href="{{ song.url | relative_url }}">
+      {{ song.title }}
+    </a>
+  </li>
+  {% endfor %}
+</ul>
+<p>
+Сайт, посветен на поезията на Руми Джи. Обичаме те!
+<br>
+<span style="float: right;">
+  - Феновете
+</span>
+</p>

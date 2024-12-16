@@ -10,7 +10,8 @@ title: Rumi G
 description: >
   An unofficial website for the lyrics from the songs of Rumi G
 baseurl: ""
-url: "https://rumig.cf"
+url: "https://alexalex.xyz"
+baseurl: "/rumig"
 permalink: "/:title/"
 
 lsi: false

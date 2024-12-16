@@ -1,20 +1,13 @@
 ---
 layout: default
 ---
-<h1>
-    <a href="/" class="nav">
-	Rumi G
-    </a>
-</h1>
-<div class="content">
-    <h2>{{ page.title }}</h2>
-    <div class="video-container">
-	<iframe allowfullscreen
-	src="https://www.youtube.com/embed/{{page.youtube}}?autoplay=0&origin=http://rumig.cf">
-	</iframe>
-    </div>
-    <h2>Текст</h2>
-    <pre>
-{{content}}
-    </pre>
+<h2>{{ page.title }}</h2>
+<div class="video-container">
+  <iframe allowfullscreen
+          src="https://www.youtube.com/embed/{{page.youtube}}?autoplay=0&origin=http://rumig.cf">
+  </iframe>
 </div>
+<h2>Текст</h2>
+<pre>
+{{content}}
+</pre>
